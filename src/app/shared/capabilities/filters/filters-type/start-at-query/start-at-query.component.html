@@ -1,0 +1,7 @@
+<label class="{{template}}">
+    <span>Start Date</span>
+    <input #startAt
+           type="date"
+           (change)="valueChange(startAt.value)"
+           [(ngModel)]="filterValue"/>
+</label>

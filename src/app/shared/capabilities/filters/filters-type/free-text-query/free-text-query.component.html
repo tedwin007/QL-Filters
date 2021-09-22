@@ -1,0 +1,7 @@
+<label class="{{template}}">
+    <span>Query</span>
+    <input type="text"
+           #freeTextInput
+           [(ngModel)]="filterValue"
+           (change)="valueChange(freeTextInput.value)">
+</label>

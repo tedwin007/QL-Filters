@@ -1,0 +1,21 @@
+<fieldset>
+    <legend>Example 1:</legend>
+    <between-filter></between-filter>
+    <!--
+    Even though freeTextQuery is located inside Example 1 It will be rendered in "Example 2".
+    This gives us full control on what gets renders (Directive)
+    where (Default is the hostContainer), and to which directive we listen.
+    we can define one eventListener (onValueChange) to multiple directives (component)
+    OR
+    We can define  each directive with it's own action
+    -->
+    <ng-container (onValueChange)="setCurrent($event)"
+                  [freeTextQuery]="vcr">
+    </ng-container>
+</fieldset>
+
+<fieldset>
+    <legend>Example 2:</legend>
+    <ng-container #filtersVCR></ng-container>
+    <div>{{current |  json}}</div>
+</fieldset>

@@ -1,0 +1,21 @@
+/* Only for demo, not real life use case*/
+body {
+    display: grid;
+}
+
+
+/**
+* |standard| is the default theme name - to be define/override by the user
+*/
+.standard {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.standard input{
+    outline: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
