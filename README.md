@@ -1,5 +1,5 @@
 This UI was design to work with a filter-manger npm package (which is private).
-filter-manger package is responsible for all the filter validation and functionality.
+filter-manger package is responsible for all of the filter's validation and functionality.
 
 * there is also an "AbstructServerComponent" whitch you can extend in an nodeJs server to create UI-Backend-FilterManger complate cycle 
 
