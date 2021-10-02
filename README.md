@@ -21,4 +21,4 @@ Example:
  ```
 
 Here is the first POC made with this feature.
-[download video](https://github.com/tedwin007/QL/blob/main/poc.mp4)
+[download video](https://github.com/tedwin007/QL-Filters/blob/main/assets/poc.mp4?raw=true)
